@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u *./.html .. #copies all files ending with .html in the current working directory to the parent directory
+cp -uvp *.html .. #copies all files ending with .html in the current working directory to the parent directory
