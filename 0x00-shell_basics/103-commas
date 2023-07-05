@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a | awk '{printf "%s%s", $0, NR%2 ? ",": "\n"}' | sed 's/^\.\{0,1\}\.$/\n./' | sort -d -f -k 1.2n #The command lists all the files and directories in the current directory, separated by commas. It also includes hidden files and directories that start with a dot (.). The output is sorted alphabetically, except for directories . and … which are listed at the beginning. Digits come before letters.
