@@ -1,2 +1,0 @@
-#!/bin/bash
-cp -uvp *.html .. #copies all files ending with .html in the current working directory to the parent directory
