@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -la .     #this list current directory contents, including hidden files using the long format
