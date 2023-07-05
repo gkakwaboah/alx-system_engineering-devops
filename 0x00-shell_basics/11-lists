@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -la . .. /boot #list contents in current, parent and boot directory
