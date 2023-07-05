@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l .  #this list files in current directory in a long format
