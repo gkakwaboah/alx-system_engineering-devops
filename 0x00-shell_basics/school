@@ -1,2 +1,2 @@
-0 string SCHOOL School data
-!:mime text/school #the string “SCHOOL” should be found at offset 0 of the file, and that the file should be identified as a “School data file"
+0 string SCHOOL School data file
+!:mime text/school # string “SCHOOL” should be found at offset 0 of the file, and that the file should be identified as a “School data file"
