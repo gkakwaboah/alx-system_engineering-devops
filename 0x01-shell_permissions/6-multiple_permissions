@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod ug+x hello #The command chmod ug+x changes the permissions of files or directories. It gives the user (u) and the group (g) the execute (x) permission
